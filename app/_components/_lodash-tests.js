@@ -8,4 +8,14 @@ const loIndexOf = () => {
     console.log(_.indexOf(numberArray, 23));
 }
 
-export { loIndexOf };
+const loForEach = () => {
+    console.log('loForEach');
+    _.forEach(numberArray, (val) => {
+        console.log(val);
+    })
+}
+
+export {
+    loIndexOf,
+    loForEach
+};
